@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="splash-container">
+        <img src="/Asset/LOGO.png" alt="Logo Informatika" class="splash-logo">
+        <h1 class="loading-text">
+            <span>L</span>
+            <span>O</span>
+            <span>A</span>
+            <span>D</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+            <span>.</span>
+            <span>.</span>
+            <span>.</span>
+        </h1>
+    </div>
+    <audio id="bgm" autoplay loop>
+        <source src="Asset/ATEEZ (에이티즈) - Ice On My Teeth (Bardcore  Medieval Kpop).mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        setTimeout(function() {
+            window.location.href = "landing.html"; 
+        }, 10000);
+        let audio = document.getElementById("bgm");
+    </script>
+</body>
+</html>

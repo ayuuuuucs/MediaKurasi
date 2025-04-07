@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+*{
+    font-family: 'jersey 15', serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#kelas-10{
+    padding-top: 15px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.img-fluid{
+    float: left;
+    margin-right: 30px; 
+    max-width: 100%;
+    height: auto;
+    width: 500px; 
+    padding-top: 6px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: content;
+}
+
+.container-text-right{
+    overflow: hidden; 
+    padding-top: 5px;
+    text-align: justify;
+}
+
+p{
+    letter-spacing: 1px;
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+    position: relative;
+    font-size: 20px;
+}
+
+h1{
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+
+.dropbtn {
+    background-color: #d48b8b;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.dropbtn:hover {
+    background-color: #c07676;
+}
+
+.content {
+    display: none;
+    padding: 15px;
+    background-color: #dab1d2;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.materi {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.penjelasan {
+    flex:21;
+    background-color: #eeeeee;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+iframe{
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+h3{
+    padding-top: 20px;
+}
+
+h5{
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .img-fluid {
+        float: none;
+        margin: auto;
+        display: block;
+    }
+    
+    .materi {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .penjelasan {
+        width: 100%;
+        text-align: center;
+    }
+}
